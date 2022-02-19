@@ -1,18 +1,21 @@
-## Getting Started
+## About
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Wordle bot that gives you the best possible options to solve the puzzle in the least amount of tries possible.
 
-## Folder Structure
+## Usage
 
-The workspace contains two folders by default, where:
+Run `Main.java` and find the first word in the terminal. Copy it to Wordle. When you get the status of all the 5 letters of the word, put them in the terminal for each letter as follows:
+1. Unused: `0`
+2. Unknown Position but used: `1`
+3. Correct letter: `2`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Once done, a new word will be generated based on the information provided. Now repeat the process till you get the answer
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Problems
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+The word library used in this might not contain some words that are answers to Wordle puzzles. These are uncommon words.
 
-## Dependency Management
+## Web Version
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+There is also a JavaScript version of this that you can check out.  
+https://ajinkyatalekar.github.io/WordleBotSite/index.html
